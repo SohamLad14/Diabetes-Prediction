@@ -1,0 +1,28 @@
+Title=Diabetes
+Data Flow Diagram:-
+*Importing Libraries(modules)
+	->numpy  
+	->pandas  
+	->seaborn
+	->matplotlib 
+	->missingno
+	->pandas_profiling
+	->sklearn
+		=>preprocessing
+		=>model_selection
+		=>metrics
+		=>neighbors
+		=>ensemble
+*Loading Data
+*Data cleaning
+*Exploratory Data Analysis(EDA)
+	->Visualisation=Matplolib & Seaborn
+	->Pandas Profilling
+*Data Processing
+	->Steps involved in Data Preprocessing
+		=>Identifying and removing outliers = LocalOutlierFactor
+		=>Encoding categorical variables = MinMaxScaler, LabelEncoder, StandardScaler, RobustScaler
+*Model Selection
+	->Model= RandomForestClassifier
+*Model Testing
+	->Training= accuracy_score
